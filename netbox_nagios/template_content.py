@@ -53,7 +53,7 @@ class NagiosStatus(PluginTemplateExtension):
 
 
 class NagiosStatusDevice(NagiosStatus):
-    model = "dcim.device"
+    models = ('dcim.device', )
 
 
 class NagiosStatusVM(NagiosStatus):
