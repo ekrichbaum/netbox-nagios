@@ -57,7 +57,7 @@ class NagiosStatusDevice(NagiosStatus):
 
 
 class NagiosStatusVM(NagiosStatus):
-    model = "virtualization.virtualmachine"
+    models = ('virtualization.virtualmachine', )
 
 
 template_extensions = [  # pylint: disable=invalid-name
